@@ -19,7 +19,7 @@ public class App {
         while (++ i > 0){
             log.info(i + ". place input todo item name:");
             TodoItem item = new TodoItem(scanner.nextLine());
-            System.out.println(item);
+            System.out.println(item.toString());
         }
     }
 }
